@@ -1,0 +1,88 @@
+Day One DSA Homework
+
+1. Big O Notation is a set of categories that can be applied to a piece
+   of code categorizing the code's "time complexity" and "space complexity".
+   Time complexity is determined by the way in which code completes its
+   iterative steps.  Space complexity is determined by memory added during
+   code execution. 
+
+2. O(1) - Best, O(logn) - 2, O(n) - 3, O(n^2) - 4, O(n!) - 5
+
+3. a.  Speed and memory consumption can affect performance / output of
+       results.  Bad performance can result in loss of customers and money.
+   b.  Interviewer's view a candidate's ability to assess code's time and
+       space complexity as an indicator of competency.
+   c.  Practice translating code between complexities increases understanding
+       and proficiency which is fun.
+
+4.  A lot of variables can effect the results of performance.now like ram,
+    processing power, processes running in the background, which can make
+    results unpredictable.
+
+5.  Total:          n^2 + 2n + 1
+    Consolidated:   n^2
+
+6.  Total:          n^3 + n + 1
+    Consolidated:   n^3
+
+7.  If a function contains three steps and two execute immediately but the
+    third takes a while, the function is still dependent on that third step
+    to complete.  Consolidation of same complexities is alright because same
+    complexities don't affect outcome to the extent that general trends are
+    violated. For example n + n + n + n, as data begins to scale to millions
+    is a lot better than n^2 and can therefore be consolidated to O(n). 
+       
+8.  Space complexity is the amount of memory that code adds during its
+    execution.  It matters because space is a resource that can be used up
+    which can affect performance.
+
+9.  Boolean, Undefined, Null, Numbers - Constant
+    String, Array, Object - Linear
+
+10. Array  -  when functionality relies on adding or removing from array's end
+    Array  -  when functionality relies on lookup by index
+    Object -  creation / removal by key, lookup by key  
+
+11. Obj:
+            insertion    - constant
+            deletion     - constant
+            searching1   - linear
+            searching2   - linear
+            accessing    - constant
+            retrieving keys   - linear
+            retrieving values - linear
+
+12. Arr:
+            inserting1   - constant
+            inserting2   - linear
+            removing1    - constant
+            removing2    - linear
+            searching1   - linear
+            searching2   - linear
+            retrieving   - constant
+            method1      - linear
+            method2      - constant
+            method3      - linear
+            method4      - linear
+            method5      - linear
+
+13. 1. Time  - Linear     | Single iteration 
+       Space - Constant   | Returns primitive
+    2. Time  - Linear     | Single iteration
+       Space - Linear     | Size of returned arr. grows relative to input 
+    3. Time  - Constant   | No iterative work is done
+       Space - Constant   | Returns value of fixed size
+    4. Time  - Linear     | Single iteration: Linear
+       Space - Constant   | Returns primitive
+    5. Time  - Constant   | No iterative work is done
+       Space - Constant   | Returns primitive
+    6. Time  - Log.       | N shrinks in size
+       Space - Constant   | Returns primative
+    7. Time  - Quadratic  | Nested loop
+       Space - Linear     | Size of returned array grows according to inputs
+    8. Time  - Quadratic  | Nested iterations
+       Space - Constant   | Returning object of fixed size
+    9. Time  - Quadratic  | Looping 2 times
+       Space - Linear     | Returned array potentially grows w. input
+    10 Time  - Quadratic  | Looping 2 times
+       Space - Linear     | Returned potentially grows depending on input
