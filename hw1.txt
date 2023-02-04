@@ -1,4 +1,4 @@
-Day One DSA Homework
+Day One DSA Homework 
 
 1. Big O Notation is a set of categories that can be applied to a piece
    of code categorizing the code's "time complexity" and "space complexity".
@@ -85,4 +85,4 @@ Day One DSA Homework
     9. Time  - Quadratic  | Looping 2 times
        Space - Linear     | Returned array potentially grows w. input
     10 Time  - Quadratic  | Looping 2 times
-       Space - Linear     | Returned potentially grows depending on input
+       Space - Linear     | Returned array potentially grows depending on input
